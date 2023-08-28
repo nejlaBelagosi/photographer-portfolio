@@ -21,7 +21,7 @@ return <section className="section">
         lg:text-left pt-24 lg:pt-36 pb-8">
             {/* text */}
             <div className="flex flex-col lg:items-start ">
-                <h1 className="h1">Black&White</h1>
+                <h1 className="h1">Birthday Party</h1>
                 <p className="mb-12 max-w-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod <b>tempor incididunt </b>ut labore et dolore
                  magna aliqua. Ut enim ad minim veniam, quis nostrud 
