@@ -12,19 +12,22 @@ import BirthdayParty from "../pages/BirthdayParty";
 //import routes route & useLocation
 import {Routes, Route, useLocation} from 'react-router-dom';
 
+
 const AnimRoutes = () => {
     const location = useLocation();
 return (
-    <Routes key={location.pathname} location={location} >
-        <Route path="/" element ={<Home />} />
-        <Route path="/about" element ={<About />} />
-        <Route path="/contact" element ={<Contact />} />
-        <Route path="/portfolio" element ={<Portfolio />} />
-        <Route path="/portfolio/blackwhite" element ={<BlackWhite />} />
-        <Route path="/portfolio/travel" element ={<Travel />} />
-        <Route path="/portfolio/wedding" element ={<Wedding />} />
-        <Route path="/portfolio/birthdayparty" element ={<BirthdayParty />} />
-    </Routes>
+   
+        <Routes key={location.pathname} location={location} >
+            <Route path="/" element ={<Home />} />
+            <Route path="/about" element ={<About />} />
+            <Route path="/contact" element ={<Contact />} />
+            <Route path="/portfolio" element ={<Portfolio />} />
+            <Route path="/portfolio/blackwhite" element ={<BlackWhite />} />
+            <Route path="/portfolio/travel" element ={<Travel />} />
+            <Route path="/portfolio/wedding" element ={<Wedding />} />
+            <Route path="/portfolio/birthdayparty" element ={<BirthdayParty />} />
+        </Routes>
+
 
 )
 };

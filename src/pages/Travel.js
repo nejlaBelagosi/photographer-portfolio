@@ -1,19 +1,19 @@
 import React from "react";
 
 //import images
-import bw1 from "../img/bw1.jpg";
-import bw2 from "../img/bw2.jpg";
-import bw3 from "../img/bw3.jpg";
-import bw4 from "../img/bw4.jpg";
-import bw5 from "../img/bw5.jpg";
-import bw6 from "../img/bw6.jpg";
-import bw7 from "../img/bw7.jpg";
-import bw8 from "../img/bw8.jpg";
-import bw9 from "../img/bw9.jpg";
+import travelImg1 from "../img/travel1.jpg";
+import travelImg2 from "../img/travel2.jpg";
+import travelImg3 from "../img/travel3.jpg";
+import travelImg4 from "../img/travel4.jpg";
+import travelImg5 from "../img/travel5.jpg";
+import travelImg6 from "../img/travel6.jpg";
+import travelImg7 from "../img/travel7.jpg";
+import travelImg8 from "../img/travel8.jpg";
+import travelImg9 from "../img/travel9.jpg";
 
 
 
-const Travel= () => {
+const BirthdayParty= () => {
 return <section className="section">
     <div className="container mx-auto h-full relative">
         <div className="flex flex-col lg:flex-row h-full
@@ -36,60 +36,62 @@ return <section className="section">
             </div>
 
             {/* image grid*/}
+            <div className="flex flex-col items-center ">
             <div className="grid grid-cols-3 lg:gap-2">
                 {/*  image*/}
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
                 lg:h-[220px] bg-accent overflow-hidden">
                     <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
-                    duration-500" src={bw1} alt="" />
+                    duration-500" src={travelImg1} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
                 lg:h-[220px] bg-accent overflow-hidden">
                     <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
-                    duration-500" src={bw2} alt="" />
+                    duration-500" src={travelImg2} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
                 lg:h-[220px] bg-accent overflow-hidden">
                     <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
-                    duration-500" src={bw3} alt="" />
+                    duration-500" src={travelImg3} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
                 lg:h-[220px] bg-accent overflow-hidden">
                     <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
-                    duration-500" src={bw4} alt="" />
+                    duration-500" src={travelImg4} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
                 lg:h-[220px] bg-accent overflow-hidden">
                     <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
-                    duration-500" src={bw5} alt="" />
+                    duration-500" src={travelImg5} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
                 lg:h-[220px] bg-accent overflow-hidden">
                     <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
-                    duration-500" src={bw6} alt="" />
+                    duration-500" src={travelImg6} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
                 lg:h-[220px] bg-accent overflow-hidden">
                     <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
-                    duration-500" src={bw7} alt="" />
+                    duration-500" src={travelImg7} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
                 lg:h-[220px] bg-accent overflow-hidden">
                     <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
-                    duration-500" src={bw8} alt="" />
+                    duration-500" src={travelImg8} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
                 lg:h-[220px] bg-accent overflow-hidden">
                     <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
-                    duration-500" src={bw9} alt="" />
+                    duration-500" src={travelImg9} alt="" />
                 </div>
 
             
+            </div>
             </div>
         </div>
     </div>
 </section>
 };
 
-export default Travel;
+export default BirthdayParty;
 
