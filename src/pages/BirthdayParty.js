@@ -15,10 +15,10 @@ import bpImg9 from "../img/bd9.jpg";
 
 const BirthdayParty= () => {
 return <section className="section">
-    <div className="container mx-auto h-full relative">
+    <div className="container mx-auto  relative">
         <div className="flex flex-col lg:flex-row h-full
         items-center justify-start gap-x-24 text-center
-        lg:text-left pt-24 lg:pt-36 pb-8">
+        lg:text-left pt-24 lg:pt-25 pb-8">
             {/* text */}
             <div className="flex flex-col lg:items-start ">
                 <h1 className="h1">Birthday Party</h1>
@@ -36,52 +36,52 @@ return <section className="section">
             </div>
 
             {/* image grid*/}
-            <div className="flex flex-col items-center ">
-            <div className="grid grid-cols-3 lg:gap-2">
+            <div className="flex flex-col items-center mt-8 lg:mt-0">
+            <div className="grid grid-cols-3 lg:gap-2 mt-4 lg:mt-0">
                 {/*  image*/}
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bpImg1} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bpImg2} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bpImg3} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bpImg4} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bpImg5} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bpImg6} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bpImg7} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bpImg8} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bpImg9} alt="" />
                 </div>
 

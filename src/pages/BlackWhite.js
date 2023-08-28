@@ -15,10 +15,10 @@ import bw9 from "../img/bw9.jpg";
 
 const BlackWhite= () => {
 return <section className="section">
-    <div className="container mx-auto h-full relative">
+    <div className="container mx-auto relative">
         <div className="flex flex-col lg:flex-row h-full
         items-center justify-start gap-x-24 text-center
-        lg:text-left pt-24 lg:pt-36 pb-8">
+        lg:text-left pt-24 lg:pt-25 pb-8">
             {/* text */}
             <div className="flex flex-col lg:items-start ">
                 <h1 className="h1">Black&White</h1>
@@ -40,48 +40,48 @@ return <section className="section">
             <div className="grid grid-cols-3 lg:gap-2">
                 {/*  image*/}
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bw1} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bw2} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bw3} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bw4} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bw5} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bw6} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bw7} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bw8} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={bw9} alt="" />
                 </div>
 

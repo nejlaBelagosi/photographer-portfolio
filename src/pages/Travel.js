@@ -15,10 +15,10 @@ import travelImg9 from "../img/travel9.jpg";
 
 const BirthdayParty= () => {
 return <section className="section">
-    <div className="container mx-auto h-full relative">
+    <div className="container mx-auto relative">
         <div className="flex flex-col lg:flex-row h-full
         items-center justify-start gap-x-24 text-center
-        lg:text-left pt-24 lg:pt-36 pb-8">
+        lg:text-left pt-24 lg:pt-25 pb-8">
             {/* text */}
             <div className="flex flex-col lg:items-start ">
                 <h1 className="h1">Travel</h1>
@@ -40,48 +40,48 @@ return <section className="section">
             <div className="grid grid-cols-3 lg:gap-2">
                 {/*  image*/}
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={travelImg1} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={travelImg2} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={travelImg3} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={travelImg4} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={travelImg5} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={travelImg6} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={travelImg7} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={travelImg8} alt="" />
                 </div>
                 <div className="max-w-[250px] lg:max-w-[320px] h-[187px]
-                lg:h-[220px] bg-accent overflow-hidden">
-                    <img className="object-cover h-full lg:h-[220px] hover:scale-110 transition-all
+                lg:h-[180px] bg-accent overflow-hidden">
+                    <img className="object-cover h-full lg:h-[180px] hover:scale-110 transition-all
                     duration-500" src={travelImg9} alt="" />
                 </div>
 
